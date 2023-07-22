@@ -10,7 +10,7 @@ Tutoriel: https://www.youtube.com/watch?v=f0X1Tl8aHtA&list=PL47mbG8wjY1CxV8En7M_
 
 
 
-#Présentation & Installation#
+#Présentation & Installation
 Présentation
 Tout est composant
 1 composant = 1 fonctionnalité
@@ -19,7 +19,7 @@ fonction()
 return(JSX): rendu visuel (comme du HTML avec des classes)
 commentaire: “ctrl + /”
 
-#Installation#
+#Installation
 Dans la console: (contrôle %)
 cd desktop
 node -v
@@ -61,13 +61,13 @@ App est le composant le plus haut de l’application et de App va découler tout
 ###Installations extensions###
 react developer tools: à télécharger et permet de voir dans la console à la place de console on va dans component et on verra tous les composants de l’application
 
-###Router & Navigation###
+###Router & Navigation
 On va se créer un router dans App.js
 on importe nos bibliothèques
 on va créer nos pages, nos composants: dans la page on tape: rsc et entrée
 NavLink: est une ancre en react
 
-###On peut mettre du style avec sass###
+###On peut mettre du style avec sass
 
 On met une classe nav activ à laquelle on a injecté du CSS (soulignement bleu quand on clique sur le lien de la barre de navigation)
 
@@ -190,7 +190,7 @@ on doit se faire une petite interface: est ce que selectedRadio
 
 
 
-#BASES REACT SUITE#
+#BASES REACT SUITE
 2eme tuto sur le site de fromscratch
 https://fromscratch.podia.com/view/courses/react-de-a-a-z/1260753-cours/3806392-cours-react-2-2
 
@@ -215,7 +215,7 @@ Pour que le style prenne: dans les composants du style: dès qu’on créer une 
 
 Point d’entrée de l’application: fichier index.js
 
-13:53 - Style dynamique
+##13:53 - Style dynamique
 
 Fichier blog.js
 const Blog = () => {
@@ -345,7 +345,7 @@ on va maper blogData
                 ))}
 chaque evenement individuellement ça va etre un article
 
-##37:07 - Props (composant Article)##
+##37:07 - Props (composant Article
 On va créer un composant article
 
 Dans le fichier blog:
@@ -413,7 +413,7 @@ on va trier du plus récent au plus ancient donc b.date - a.date car ce sont des
                     .sort((a, b) => b.date - a.date)
 
 
-##47:55 - Create (post)##
+##47:55 - Create (post)
 axios.post
 
 on va appeler les données axios.post:
@@ -472,7 +472,7 @@ On va rajouter getData pour évoluer en live le state de getData
     };
 
 
-##1:03:27 - Update##
+##1:03:27 - Update
 Dans article:
 
  On crée une constante qui est un boolean:isEditing donc de base on n’est pas en train d’éditer mais si on clique sur le bouton, on va éditer
@@ -580,7 +580,7 @@ si isediting sur true on met une couleur sinon background de base
 
 On a fait des ternaires d’affichage
 
-##1:23:29 - Delete##
+##1:23:29 - Delete
 
 bouton suppression article
 au click: confirmation de suppression avec demande de oui ou non
